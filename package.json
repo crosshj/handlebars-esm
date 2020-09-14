@@ -1,0 +1,37 @@
+{
+  "name": "handlebars-esm",
+  "version": "1.0.0",
+  "description": "es module port of handlebars",
+  "main": "dist/handlebars.esm.min.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "demo": "http-server . -c=-1 -p=8003",
+    "build": "rm -rf dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dperrymorrow/handlebars-esm.git"
+  },
+  "keywords": [
+    "handlebars",
+    "esm"
+  ],
+  "author": "David Morrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dperrymorrow/handlebars-esm/issues"
+  },
+  "homepage": "https://github.com/dperrymorrow/handlebars-esm#readme",
+  "dependencies": {
+    "rollup": "^2.26.11"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6",
+    "http-server": "^0.12.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-filesize": "^9.0.2",
+    "rollup-plugin-gzip": "^2.5.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
