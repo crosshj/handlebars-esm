@@ -1,4 +1,4 @@
-# handlebars-esm
+# @fiug/handlebars-esm
 a port of Handlebars to esm compatable module
 
 
@@ -7,15 +7,15 @@ a port of Handlebars to esm compatable module
 from npm
 
 ```
-npm i handlebars-esm --save
+npm i @fiug/handlebars-esm --save
 ```
 
 ```javascript
-import Handlebars from "handlebars-esm";
+import Handlebars from "@fiug/handlebars-esm";
 ```
 
 or directly from unpkg
 
 ```javascript
-import Handlebars from "https://unpkg.com/handlebars-esm";
+import Handlebars from "https://unpkg.com/@fiug/handlebars-esm";
 ```
