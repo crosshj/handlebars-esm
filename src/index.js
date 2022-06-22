@@ -2,7 +2,7 @@ import Handlebars from "handlebars/dist/handlebars.js";
 
 const originalCompile = Handlebars.compile;
 
-Handlbars.compile = (arg) => {
+Handlebars.compile = (arg) => {
   if(typeof arg === "string") return originalCompile(arg);
   const { path, text } = arg || {};
   if(!path) return originalCompile(text || "");
