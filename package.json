@@ -1,7 +1,7 @@
 {
   "name": "handlebars-esm",
   "version": "1.0.0",
-  "description": "es module port of handlebars",
+  "description": "es module port of handlebars ++",
   "main": "dist/handlebars.esm.min.js",
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dperrymorrow/handlebars-esm.git"
+    "url": "git+https://github.com/crosshj/handlebars-esm.git"
   },
   "keywords": [
     "handlebars",
     "esm"
   ],
-  "author": "David Morrow",
+  "author": "David Morrow, Harrison Cross",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dperrymorrow/handlebars-esm/issues"
+    "url": "https://github.com/crosshj/handlebars-esm/issues"
   },
-  "homepage": "https://github.com/dperrymorrow/handlebars-esm#readme",
+  "homepage": "https://github.com/crosshj/handlebars-esm#readme",
   "dependencies": {
     "rollup": "^2.26.11"
   },
