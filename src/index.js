@@ -10,7 +10,9 @@ Handlebars.compile = (arg) => {
 
   return (async () => {
     const source = await fetch(path).then(x => x.text());
-    const template = originalCompile(source);
+    const template = originalCompile(
+      (source||"").replace(/^\t{1,}/gm, "")
+    );
     return template;
   })();
 };

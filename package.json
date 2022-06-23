@@ -1,6 +1,6 @@
 {
   "name": "@fiug/handlebars-esm",
-  "version": "4.7.7",
+  "version": "4.7.7-1",
   "description": "es module port of handlebars ++",
   "main": "dist/handlebars.esm.min.js",
   "scripts": {
