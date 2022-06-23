@@ -6,6 +6,7 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "demo": "http-server . -c=-1 -p=8003",
+    "ci": "",
     "build": "rm -rf dist && rollup -c"
   },
   "repository": {
